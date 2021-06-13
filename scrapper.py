@@ -32,7 +32,7 @@ def get_data(http_resp, http_content, hostname, port_num):
 if __name__ == "__main__":
     host, port, uri = "en.wikipedia.org", 443, "/wiki/Main_Page"
     resp, content = get(host, port, uri)
-    images, host_port_uri = get_data(resp, content, "en.wikipedia.org", 443)
+    images, host_port_uri = get_data(resp, content, host, port)
     print(f"Scrapping {len(host_port_uri)} links for images")
     for _host, _port, _uri in host_port_uri:
         _resp, _content = get(_host, _port, _uri)
