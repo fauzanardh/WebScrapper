@@ -41,7 +41,7 @@ def get(host, port, uri):
     try:
         content = response.read(len(data.decode()))
     except UnicodeDecodeError:
-        return response, None
+        return response, ""
         
     print(f"Finished: {host}:{port}{uri}")
     return response, content
