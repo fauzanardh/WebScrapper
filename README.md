@@ -34,6 +34,6 @@ On Fauzan's 50Mbps connection and 6 Core Machine:
 
 On Stanlly's 60Mbps connection and 8 Core Machine:
 1. Non-Threaded:
-    ![non-threaded](resources/non_threaded.png)
+    ![non-threaded](resources/non_threaded.jpg)
 2. Threaded:
     ![threaded](resources/threaded.png)
