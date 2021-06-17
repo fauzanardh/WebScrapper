@@ -1,5 +1,9 @@
 # Simple Web Scrapper
-This project is as a part of BINUS International Computer Architecture and Operating System final project.
+A repository for our final project for Computer Architecture and Operating Systems class in Binus International.
+
+## Team Members:
+Fauzan
+Stanlly
 
 ## This project uses
 1. Socket for making a http request
@@ -7,23 +11,28 @@ This project is as a part of BINUS International Computer Architecture and Opera
 3. http.client HTTPResponse for parsing the http response 
 4. BeautifulSoup4+lxml for parsing the http content
 
-## How to run this project
-1. install the dependencies
+## How to Run the Project
+1. Install the dependencies. When `requirements.txt` make sure the CMD/Shell is in the folder that contains the file.
 ```
 pip install -r requirements.txt
 or
 pip install beautifulsoup4 lxml
 ```
-2. run either the `scapper.py` or the `scrapper_threading.py`
+2. Run either `scapper.py` or `scrapper_threading.py`
 ```
 python scrapper.py
 or
 python scrapper_threading.py
 ```
 
-## Performance difference
-On my 50Mbps connection and 6 cores machine:
-1. non-threading
+## Performance Differences
+On Fauzan's 50Mbps connection and 6 Core Machine:
+1. Non-threaded:
     ![non-threading](resources/non_threading.png)
-1. threading
+2. Threaded:
     ![threading](resources/threading.png)
+
+On Stanlly's 60Mbps connection and 8 Core Machine:
+1. Non-threaded:
+
+2. Threaded:
