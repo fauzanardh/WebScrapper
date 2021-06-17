@@ -37,6 +37,11 @@ def get(host, port, uri):
     data_buf = FakeSocket(data)
     response = HTTPResponse(data_buf)
     response.begin()
-    content = response.read(len(data.decode()))
+    
+    try:
+        content = response.read(len(data.decode()))
+    except UnicodeDecodeError:
+        return response, None
+        
     print(f"Finished: {host}:{port}{uri}")
     return response, content
