@@ -25,14 +25,15 @@ or
 python scrapper_threading.py
 ```
 
-## Performance Differences
+## Comparing Non-Threaded vs Threaded
 On Fauzan's 50Mbps connection and 6 Core Machine:
-1. Non-threaded:
+1. Non-Threaded:
     ![non-threading](resources/non_threading.png)
 2. Threaded:
     ![threading](resources/threading.png)
 
 On Stanlly's 60Mbps connection and 8 Core Machine:
-1. Non-threaded:
-
+1. Non-Threaded:
+    ![non-threading](resources/non_threading2.png)
 2. Threaded:
+    ![threading](resources/threading2.png)
