@@ -2,8 +2,8 @@
 A repository for our final project for Computer Architecture and Operating Systems class in Binus International.
 
 ## Team Members:
-Fauzan
-Stanlly
+- Fauzan
+- Stanlly
 
 ## This project uses
 1. Socket for making a http request
