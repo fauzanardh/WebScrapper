@@ -1,8 +1,9 @@
-# What is a Web Scraper
-A Web Scraper is an application used for harvesting data from sites through the use of HTTP, storing the data found on a local file or database.
 
 # Simple Web Scrapper
 A repository for our final project for Computer Architecture and Operating Systems class in Binus International.
+
+## What is a Web Scraper
+A Web Scraper is an application used for harvesting data from sites through the use of HTTP, storing the data found on a local file or database.
 
 ## Details
 We have 2 main files, `scrapper` and `scrapper_threading`
